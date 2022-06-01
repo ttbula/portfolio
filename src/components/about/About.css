@@ -1,3 +1,42 @@
 .about {
     text-align: center;
 }
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+
+  .about_card {
+    background: var(--color-secondary);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    transition: var(--transition);
+  }
+  
+  .about_card:hover {
+    background: rgba(255, 255, 255, 0.4);
+    border-color: var(--color-primary);
+    cursor: default;
+  }
+
+  .about_card h5 {
+    font-size: 1rem;
+  }
+  
+  .about_card small {
+    font-size: 0.9rem;
+    color: var(--color-highlight);
+  }
+
+  @media screen and (max-width: 600px) {
+
+    .about_cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+
+  }
