@@ -1,11 +1,11 @@
-import Resume from '../../assets/timothy_cebula.pdf';
+import Resume from '../../assets/resume.pdf';
 
 const CTA = () => {
     return(
         <div className='cta'>
             <a href={Resume} download className='btn'> Download Resume </a>
             <br></br>
-            <a href='#contact' className='btn btn-primary'>Let's chat</a>
+            {/* <a href='#contact' className='btn btn-primary'>Let's chat</a> */}
         </div>
     )
 }

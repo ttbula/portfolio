@@ -20,7 +20,7 @@ const About = () => {
                          <small>3+ completed projects</small>
                      </article>
                 </div>
-                <p>An Air Force veteran turned software developer who enjoys tackling new tasks and gaining skills and is a lifelong learner.</p>
+                <p className='sent'>An Air Force veteran turned software developer who enjoys tackling new tasks and gaining skills and is a lifelong learner.</p>
             </div>
         </div>
     )
