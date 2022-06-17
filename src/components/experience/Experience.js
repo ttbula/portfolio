@@ -10,7 +10,7 @@ const Experience = () => {
                     <h3>Front-end</h3>
                     <div>
                         <h4>HTML</h4>
-                        <small className="small">1 year</small>
+                        <small className="small">1+ year</small>
                     </div>
                     <div>
                         <h4>CSS</h4>
@@ -29,6 +29,33 @@ const Experience = () => {
                         <small className="small">4+ months</small>
                     </div>
 
+                </div>
+                <div className="exp-backend">
+                    <h3>Back-end</h3>
+                    <div>
+                        <h4>NodeJs</h4>
+                        <small className="small">4+ months</small>
+                    </div>
+                    <div>
+                        <h4>NodeJs</h4>
+                        <small className="small">4+ months</small>
+                    </div>
+                    <div>
+                        <h4>PostgreSQL</h4>
+                        <small className="small">4+ months</small>
+                    </div>
+                    <div>
+                        <h4>MongoDB</h4>
+                        <small className="small">4+ months</small>
+                    </div>
+                    <div>
+                        <h4>Python</h4>
+                        <small className="small">4+ months</small>
+                    </div>
+                    <div>
+                        <h4>C++</h4>
+                        <small className="small">4+ months</small>
+                    </div>
                 </div>
 
             </div>
