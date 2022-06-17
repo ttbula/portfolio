@@ -1,7 +1,9 @@
 .about {
+  padding-top: 30px;
     text-align: center;
     
 }
+
 
 .about_cards {
   grid-template-columns: 1fr 1fr;
@@ -63,3 +65,5 @@
   .sent {
     padding-top: 30px;
   }
+
+  

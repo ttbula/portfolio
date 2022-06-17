@@ -1,4 +1,10 @@
 .exp {
+    padding-top: 50px;
     text-align: center;
-    padding-top: 100px;
+}
+
+.exp-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem
 }

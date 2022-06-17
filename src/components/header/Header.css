@@ -1,3 +1,10 @@
 .header {
   text-align: center;
 }
+
+.pics {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  padding: 50px;
+}
